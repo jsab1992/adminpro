@@ -11,12 +11,7 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 import { AuthModule } from './auth/auth.module';
 
 @NgModule({
-  declarations: [
-    AppComponent,    
-    NopagefoundComponent,
-    
-    
-  ],
+  declarations: [AppComponent, NopagefoundComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -25,6 +20,6 @@ import { AuthModule } from './auth/auth.module';
     AuthModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

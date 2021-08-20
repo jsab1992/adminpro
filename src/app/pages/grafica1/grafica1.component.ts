@@ -1,16 +1,27 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-grafica1',
   templateUrl: './grafica1.component.html',
-  styles: [
-  ]
+  styles: [],
 })
-export class Grafica1Component implements OnInit {
+export class Grafica1Component {
+  // public titles: string = 'Sales'
+  public labels1: string[] = ['Descarga ventas', 'Tienda ', 'Ordenes'];
+  public datosDona = [[11, 50, 200]];
+  
+  
 
-  constructor() { }
 
-  ngOnInit(): void {
-  }
 
+  // @Input() labels1: string[] = [
+  //   'Download Sales',
+  //   'In-Store Sales',
+  //   'Mail-Order Sales',
+  // ];
+
+  // labelData(labels: string[]) {
+  //   // this.labels1 = label;
+  //   console.log('dona' + labels);
+  // }
 }
