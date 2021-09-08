@@ -12,6 +12,6 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {}
   login() {
     this.router.navigateByUrl('/')
-    console.log('submit');
+    // console.log('submit');
   }
 }

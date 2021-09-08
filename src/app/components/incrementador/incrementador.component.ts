@@ -39,6 +39,5 @@ export class IncrementadorComponent implements OnInit {
       this.progreso = nuevoValor;
     }
     this.valorSalida.emit(this.progreso);
-    console.log(this.progreso);
   }
 }

@@ -23,7 +23,7 @@ export class DonaComponent {
 
   cambioValorHijo(labelSalida: string) {
     this.titles = labelSalida;
-    console.log('holaaaaaa hijo' +    labelSalida);   
+    // console.log('holaaaaaa hijo' +    labelSalida);   
   }
 
 

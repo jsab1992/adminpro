@@ -19,6 +19,6 @@ export class ProgressComponent {
   cambioValorHijo(valor: number) {
     this.progreso1 = valor;
     this.progreso2 = valor;
-    console.log('holaaaaaa hijo' + valor);
+    // console.log('holaaaaaa hijo' + valor);
   }
 }
